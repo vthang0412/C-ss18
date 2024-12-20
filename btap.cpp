@@ -79,12 +79,12 @@ int main(){
 				break;
 				}
 			case 4:{
-	            printf("Menu sau khi xoa la: \n");
-	            n--;
-                for(int i=0;i<n;i++){
-					printf("%d. %s: %.2lf\n",menu[i].id,menu[i].name,menu[i].price);
+			    printf("Menu sau khi xoa la: \n");
+			    n--;
+			    for(int i=0;i<n;i++){
+				printf("%d. %s: %.2lf\n",menu[i].id,menu[i].name,menu[i].price);
 				}
-				break;
+					break;
 				}
 			case 5:{
 				for (int i=0 ; i < n-1 ; i++){
@@ -111,7 +111,7 @@ int main(){
 			    for (int i = 0; i < n; i++) {
 			        if (strcmp(checkMenu, menu[i].name) == 0 ) {
 			            check ++;
-			           	printf("Mon an tim kiem la :%d. %s: %.2lf\n",menu[i].id,menu[i].name,menu[i].price);
+			            printf("Mon an tim kiem la :%d. %s: %.2lf\n",menu[i].id,menu[i].name,menu[i].price);
 			        }
 			    }
 			    if (!check) {
